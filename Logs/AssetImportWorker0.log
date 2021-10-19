@@ -1,0 +1,283 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.16f1 (049d6eca3c44) revision 302446'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1288; Version 2009; 64bit' Language: 'ru' Physical Memory: 16334 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+A:\Programs\Unity\2020.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+A:/GeekBrains gamedev/unity git/GladiatorUITask
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49912
+Successfully changed project path to: A:/GeekBrains gamedev/unity git/GladiatorUITask
+A:/GeekBrains gamedev/unity git/GladiatorUITask
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 33.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.16f1 (049d6eca3c44)
+[Subsystems] Discovering subsystems at path A:/Programs/Unity/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path A:/GeekBrains gamedev/unity git/GladiatorUITask/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   30.0.14.7168
+Initialize mono
+Mono path[0] = 'A:/Programs/Unity/2020.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'A:/Programs/Unity/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'A:/Programs/Unity/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: A:/Programs/Unity/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001432 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 33.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.212 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1212ms)
+		BeginReloadAssembly (58ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (456ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (172ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (176ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (33ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003377 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.204 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1205ms)
+		BeginReloadAssembly (162ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (974ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (312ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (422ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (326ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1397 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.9 MB.
+System memory in use after: 64.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1831.
+Total: 4.478400 ms (FindLiveObjects: 0.182900 ms CreateObjectMapping: 0.036500 ms MarkObjects: 4.176500 ms  DeleteObjects: 0.080100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Gladiator UI test/yellow-star 4.png
+  artifactKey: Guid(530accfbab6ccbd4e90b2f007bbc9519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gladiator UI test/yellow-star 4.png using Guid(530accfbab6ccbd4e90b2f007bbc9519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85be1c0ade8104503792b4cfdaa7c7f') in 0.077901 seconds 
+  Import took 0.080408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001991 seconds.
+  path: Assets/Gladiator UI test/yellow-star 4.png
+  artifactKey: Guid(530accfbab6ccbd4e90b2f007bbc9519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gladiator UI test/yellow-star 4.png using Guid(530accfbab6ccbd4e90b2f007bbc9519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85be1c0ade8104503792b4cfdaa7c7f') in 0.009208 seconds 
+  Import took 0.011612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.433327 seconds.
+  path: Assets/Gladiator UI test/yellow-star 4.png
+  artifactKey: Guid(530accfbab6ccbd4e90b2f007bbc9519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gladiator UI test/yellow-star 4.png using Guid(530accfbab6ccbd4e90b2f007bbc9519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b90028130bd4ad7f3cc6de24e591885') in 0.047128 seconds 
+  Import took 0.049654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 432.847285 seconds.
+  path: Assets/Gladiator UI test/Rectangle 4.png
+  artifactKey: Guid(03c09806f73723941b9f136e66b34f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gladiator UI test/Rectangle 4.png using Guid(03c09806f73723941b9f136e66b34f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187a0a6e08ad9cf3d8c8ced60308aa44') in 0.011906 seconds 
+  Import took 0.014542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.061245 seconds.
+  path: Assets/Gladiator UI test/Rectangle 4.png
+  artifactKey: Guid(03c09806f73723941b9f136e66b34f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gladiator UI test/Rectangle 4.png using Guid(03c09806f73723941b9f136e66b34f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85f10d29b591331f8480d8774a3afa8') in 0.012410 seconds 
+  Import took 0.014960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004658 seconds.
+  path: Assets/Gladiator UI test/Rectangle 4.png
+  artifactKey: Guid(03c09806f73723941b9f136e66b34f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gladiator UI test/Rectangle 4.png using Guid(03c09806f73723941b9f136e66b34f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85f10d29b591331f8480d8774a3afa8') in 0.007179 seconds 
+  Import took 0.009591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 517.503430 seconds.
+  path: Assets/Gladiator UI test/Rectangle 5.png
+  artifactKey: Guid(c90a2f2b752d8144ab25adfbcb6e9e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gladiator UI test/Rectangle 5.png using Guid(c90a2f2b752d8144ab25adfbcb6e9e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9205ba13cb2235d7c9fd2fad0e90482f') in 0.010552 seconds 
+  Import took 0.013199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.623162 seconds.
+  path: Assets/Gladiator UI test/Rectangle 5.png
+  artifactKey: Guid(c90a2f2b752d8144ab25adfbcb6e9e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gladiator UI test/Rectangle 5.png using Guid(c90a2f2b752d8144ab25adfbcb6e9e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab813cfbfbb5bd81c56c57287244ed6') in 0.014469 seconds 
+  Import took 0.016989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2777.224605 seconds.
+  path: Assets/Gladiator UI test/gold 1.png
+  artifactKey: Guid(1d269c4c1259aad48829436967deb7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gladiator UI test/gold 1.png using Guid(1d269c4c1259aad48829436967deb7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9930e79a913ef7c15ff47403fd655654') in 0.022643 seconds 
+  Import took 0.025278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.538239 seconds.
+  path: Assets/Gladiator UI test/gold 1.png
+  artifactKey: Guid(1d269c4c1259aad48829436967deb7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gladiator UI test/gold 1.png using Guid(1d269c4c1259aad48829436967deb7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27973c96f200ea31dcab790437db897f') in 0.013944 seconds 
+  Import took 0.016529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.689623 seconds.
+  path: Assets/Gladiator UI test/gem_03 1 1.png
+  artifactKey: Guid(035470924e817a74fbed7e90333a5097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gladiator UI test/gem_03 1 1.png using Guid(035470924e817a74fbed7e90333a5097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ab05fcf523341a5e43fa256e58a01f') in 0.010541 seconds 
+  Import took 0.013441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.853090 seconds.
+  path: Assets/Gladiator UI test/gem_03 1 1.png
+  artifactKey: Guid(035470924e817a74fbed7e90333a5097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gladiator UI test/gem_03 1 1.png using Guid(035470924e817a74fbed7e90333a5097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ecac94526f5da76f8a81a20293d6bf') in 0.015601 seconds 
+  Import took 0.018305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 254.890571 seconds.
+  path: Assets/Gladiator UI test/up-arrow 3.png
+  artifactKey: Guid(2e4241623c7eb0c40943ec98c0ceff55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gladiator UI test/up-arrow 3.png using Guid(2e4241623c7eb0c40943ec98c0ceff55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b57e632b8ce8a1944631e377f69e6e') in 0.011084 seconds 
+  Import took 0.013691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.991355 seconds.
+  path: Assets/Gladiator UI test/up-arrow 3.png
+  artifactKey: Guid(2e4241623c7eb0c40943ec98c0ceff55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gladiator UI test/up-arrow 3.png using Guid(2e4241623c7eb0c40943ec98c0ceff55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd66a1c52f6996c23c99f83a5f3f78ba') in 0.015017 seconds 
+  Import took 0.017518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 957.070349 seconds.
+  path: Assets/Gladiator UI test/Group 15.png
+  artifactKey: Guid(3b1be6bad84e30143a0c6edbf181aea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gladiator UI test/Group 15.png using Guid(3b1be6bad84e30143a0c6edbf181aea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d004225f91cc6280c3e44da65475c41') in 0.011837 seconds 
+  Import took 0.014462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.403676 seconds.
+  path: Assets/Gladiator UI test/Group 15.png
+  artifactKey: Guid(3b1be6bad84e30143a0c6edbf181aea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gladiator UI test/Group 15.png using Guid(3b1be6bad84e30143a0c6edbf181aea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e320fcfeeecacdaf540bf61da9b913f8') in 0.018645 seconds 
+  Import took 0.021187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 196.539889 seconds.
+  path: Assets/Gladiator UI test/window.png
+  artifactKey: Guid(5d9e63a997277c2429e56fd8c5a1c64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gladiator UI test/window.png using Guid(5d9e63a997277c2429e56fd8c5a1c64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6289efd7addde2d05f4824f529ee7c0d') in 0.010731 seconds 
+  Import took 0.013250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.196173 seconds.
+  path: Assets/Gladiator UI test/window.png
+  artifactKey: Guid(5d9e63a997277c2429e56fd8c5a1c64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gladiator UI test/window.png using Guid(5d9e63a997277c2429e56fd8c5a1c64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09bc98a38c028f4e304f7682c51d6ab') in 0.016945 seconds 
+  Import took 0.019501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002990 seconds.
+  path: Assets/Gladiator UI test/window.png
+  artifactKey: Guid(5d9e63a997277c2429e56fd8c5a1c64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gladiator UI test/window.png using Guid(5d9e63a997277c2429e56fd8c5a1c64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09bc98a38c028f4e304f7682c51d6ab') in 0.016088 seconds 
+  Import took 0.018643 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
